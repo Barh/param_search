@@ -271,6 +271,15 @@
         }
 
         /**
+         * Delete DB
+         * @return bool
+         */
+        public function deleteDB()
+        {
+            return $this->deleteTree($this->p_db);
+        }
+
+        /**
          * Select
          * @param int|array $id id
          * @param bool|string $flag flag

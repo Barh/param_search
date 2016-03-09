@@ -61,6 +61,19 @@
             <div class="ps-link">
                 <a href="?page=properties"><?php echo Language::get('properties', 'select_all'); ?></a>
             </div>
+
+            <!-- Separate -->
+            <div class="ps-link-separate"></div>
+
+            <!-- Property insert -->
+            <div class="ps-link">
+                <a href="fill_db.php"><?php echo Language::get('filedb', 'fill'); ?></a>
+            </div>
+
+            <!-- Properties -->
+            <div class="ps-link">
+                <a href="clear_db.php"><?php echo Language::get('filedb', 'clear'); ?></a>
+            </div>
         </div>
 
         <?php
